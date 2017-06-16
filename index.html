@@ -2,18 +2,28 @@
 <html>
 	<head>
 		<title>US Weather Guide</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-		<link type="stylesheet" src="css/main.css"><link>
+<!-- 		<img class="slides" src="css/img/skybackground.jpeg">
+		<img class="slides" src="beach_sun.jpeg">
+		<img class="slides" src="css/img/rain.jpeg">
+		<img class="slides" src="css/img/skybackground.jpeg">
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button> -->
 	</head>
 	<body>
+	<div id="addHere">
 	<h1>US Weather Guide</h1>
 	<h2>Farenheit Does Not Make Sense</h2>
 	<h3>So We are Here to Help</h3>
-	<div id="addHere">
 		<h4>Where Will You Visit?</h4>
 		<p>Zip Code: <input type="text" id="zipCode"></p>
 		<button id="enter">Enter</button>
+<!-- 		<button id="clear">Clear</button> -->
+	</div>
+	<div id="centerResults">
+
 	</div>
 	<ul id="location"></ul>
 	<!-- js files -->

@@ -1,10 +1,10 @@
 body {
-	background-image: url("public/css/img/skyBackground.jpeg") no-repeat fixed top center;
+	background: url("./img/skyBackground.jpeg") no-repeat fixed top center;
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	background-size: 100% 100%;
 	-o-background-size: 100% 100%;
-	color: #fff;
+	color: navy;
 }
 h1 h2 h4 p {
 	margin: auto;
@@ -17,4 +17,8 @@ h1 h2 h4 p {
 #addHere {
 	text-align: center;
 	font-size: 2em;
+}
+#centerResults{
+		text-align: center;
+	font-size: 1em;
 }
