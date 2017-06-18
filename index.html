@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" type="image/png" sizes="16x16" href="public/css/img/Clip-art-sun-clipart.jpg">
 		<title>US Weather Guide</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="public/css/main.css">
+		<link rel="stylesheet" href="lib/assets/css/bootstrap.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <!-- 		<img class="slides" src="css/img/skybackground.jpeg">
@@ -19,7 +21,8 @@
 	<h3>So We are Here to Help</h3>
 		<h4>Where Will You Visit?</h4>
 		<p>Zip Code: <input type="text" id="zipCode"></p>
-		<button id="enter">Enter</button>
+		<!-- <button id="enter">Enter</button> -->
+		<button type="button" class="btn btn-primary" id="enter">Enter</button>
 <!-- 		<button id="clear">Clear</button> -->
 	</div>
 	<div id="centerResults">
@@ -27,7 +30,7 @@
 	</div>
 	<ul id="location"></ul>
 	<!-- js files -->
-	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="public/js/ajax.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
 </body>
 </html>
