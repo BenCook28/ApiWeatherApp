@@ -28,7 +28,7 @@ var placeTemplate = "" +
 	'<div id="centerResults">' +
 	"<p>Results for {{name}}:</p>" +
 	"<p>Condition: {{description}}.</p>" +
-	"<p>It is {{tempF}} degrees ferenheit.</p>" +
+	"<p>It is {{tempF}} degrees fahrenheit.</p>" +
 	//"<p>It is "+ tempF + " degrees farenheit."</p>;
 	"<p>This means it is {{tempC}} degrees celcius.</p>" +
 	"</div>";
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	var weatherData = {};
 		$.ajax({
 			type: 'GET',
-			url: 'http://api.openweathermap.org/data/2.5/weather?zip='+ zipCode+',us&apikey='+ API_KEY,
+			url: 'https://api.openweathermap.org/data/2.5/weather?zip='+ zipCode+',us&apikey='+ API_KEY,
 		    success: (function(fillIn){
 
 			console.log(fillIn.name);
