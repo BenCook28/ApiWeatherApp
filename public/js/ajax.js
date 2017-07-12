@@ -59,7 +59,7 @@ $(document).ready(function(){
 
 		}),
 			error: function(){
-				alert('please enter a valid zip code');
+				alert('The Open Weather API is currently unavailable. Please try again later.');
 			}
 
 		});
